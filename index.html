@@ -21,9 +21,9 @@
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
         <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About </a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Our Products</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Contacts</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link link-body-emphasis px-2">About </a></li>
+        <li class="nav-item"><a href="#hanging-icons" class="nav-link link-body-emphasis px-2">Our Products</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link link-body-emphasis px-2">Contacts</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
       </ul>
       <ul class="nav">
@@ -45,7 +45,7 @@
   </header>
 
 
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="px-4 pt-5 my-5 text-center border-bottom" id="home">
     <h1 class="display-4 fw-bold text-body-emphasis">Welcome to Diamond Tech</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Founded in 2020, Diamond Tech is a leading technology company committed to transforming the digital landscape with cutting-edge solutions. Our headquarters are located in Johannesburg, RSA, and we proudly serve clients around the globe.</p>
@@ -56,6 +56,77 @@
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
         <img src="images/pic.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+ <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Hanging icons</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i class="fa-solid fa-laptop fa-"></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">PC's and Laptops</h3>
+          <p>We offer comprehensive PC and laptop services designed to meet all your needs, whether you're a business professional, student, or tech enthusiast.</p>
+          <a href="#" class="btn btn-primary">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+         <i class="fa-solid fa-print"></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Printer & Cartridges</h3>
+          <p>Our services encompass not only the sale of printers and cartridges but also maintenance and support to ensure your printing systems operate smoothly.</p>
+          <a href="#" class="btn btn-primary">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Cellphones & Tablets</h3>
+          <p>We offer comprehensive cellphones and tablets services designed to keep you connected and productive, and ongoing support and maintenance, ensuring your devices are always up-to-date and operating at peak performance.</p>
+          <a href="#" class="btn btn-primary">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contacts">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact us</h1>
+        <p class="col-lg-10 fs-4">To get in touch, fill up the form or send us an email at <a href="mailto:info@diamond.com">info@diamondtech.com</a></p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+          <hr class="my-4">
+          <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+        </form>
       </div>
     </div>
   </div>
